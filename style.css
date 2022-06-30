@@ -1,0 +1,136 @@
+body{
+    font-family: Tahoma;
+    font-size: 13px;
+    width:1000px;
+    margin: 0px auto;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    border: 0.5px solid rgb(193, 193, 191);
+    box-sizing: border-box;
+}
+#menu_top{
+    background: #fef9f9;
+    height: 40px;
+}
+#banner{
+    /* background: red; */
+    height: auto;
+    width:1000px;
+}
+#main{
+    background: rgb(217, 214, 214);
+    /* padding: 10px 10px 0px 0px; */
+}
+#main #top{
+    width: 1000px;
+    
+    float: left;
+    padding: 20px;
+    box-sizing:border-box;
+}
+#main #left{
+    width: 500px;
+    /* background:  rgb(245, 241, 241); */
+    float: left;
+    min-height: 350px;
+    margin:0px;
+    box-sizing:border-box;
+    padding : 20px 60px;
+}
+/* #main #left img{
+    width: 300px;
+    padding: 10px 20px 10px 20px;
+} */
+#left h2{
+    color: rgb(198, 116, 58);
+}
+#right h2{
+    color: rgb(198, 116, 58);
+}
+#main #right{
+    width: 450px;
+    /* background:  rgb(245, 241, 241); */
+    float: left;
+    min-height: 350px;
+    margin:0px;
+    box-sizing:border-box;
+    padding : 20px ;
+}
+#main #right img{
+    width: 290px;
+    padding: 10px 10px 0px 0px;
+}
+#footer{
+    background: rgb(252, 246, 246);
+    width: 1000px;
+    text-align: center;
+    /* height: 150px; */
+    color: rgb(44, 42, 42);
+    clear:left;
+    line-height: 20px;
+    border-top: 1px solid rgb(130, 130, 128);
+    box-sizing: border-box;
+    text-align: left;
+}
+#footer th{
+    padding:  10px 40px 10px 40px;
+
+}
+
+#footer p{
+    /* font-family: Tahoma; */
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color:rgb(82, 80, 80);
+}
+#footer table thead th a{
+    color:rgb(20, 40, 253);
+    text-decoration: none;
+}
+#menu_top ul{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#menu_top ul li{
+    list-style-type: none;
+    float: left;
+}
+#menu_top ul li a{
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    text-align: center;
+    color: rgb(133, 129, 129);
+    font-family: 'Koulen', cursive;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 16px 0px 15px;
+    /* border-right: 1px solid; */
+}
+#menu_top ul li span{
+    padding: 0px 600px 0px 0px;
+}
+#banner{
+    font-family: 'Macondo', cursive;
+    font-size:100%;
+    color: black;
+    width: 1000px;
+    /* height: 300px; */
+    background-image: url(bacground1.jpg);
+    padding: 120px 100px 10px 100px;
+    background-repeat: no-repeat;
+    color: white;
+    box-sizing:border-box;
+}
+ul li a#name{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 120%;
+    color: black;
+    padding: 250px;
+}
+
+/* .footer table thead h3{
+    padding: 10px 200px;
+} */
+.hidden{
+    display: none;
+}
+
